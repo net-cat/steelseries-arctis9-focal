@@ -1,0 +1,6 @@
+# Ubuntu 20.04/Linux Mint 20:
+# Drop this file in /etc/udev/rules.d
+
+# ID 1038:12c4 is for the Arctis 9
+ATTRS{idVendor}=="1038", ATTRS{idProduct}=="12c4", ENV{PULSE_PROFILE_SET}="steelseries-arctis-common-usb-audio-arctis9.conf"
+
